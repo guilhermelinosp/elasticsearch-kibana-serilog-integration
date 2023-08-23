@@ -1,4 +1,13 @@
 {
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:34727",
+      "sslPort": 44364
+    }
+  },
   "profiles": {
     "Sample.API": {
       "commandName": "Project",
@@ -20,32 +29,12 @@
     },
     "WSL": {
       "commandName": "WSL2",
-      "launchBrowser": true,
-      "launchUrl": "https://localhost:7261/swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "ASPNETCORE_URLS": "https://localhost:7261;http://localhost:5196"
       },
-      "distributionName": ""
-    },
-    "Docker": {
-      "commandName": "Docker",
       "launchBrowser": true,
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
-      "environmentVariables": {
-        "ASPNETCORE_URLS": "https://+:443;http://+:80"
-      },
-      "publishAllPorts": true,
-      "useSSL": true
-    }
-  },
-  "$schema": "https://json.schemastore.org/launchsettings.json",
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:34727",
-      "sslPort": 44364
+      "launchUrl": "https://localhost:7261/swagger"
     }
   }
 }
