@@ -35,24 +35,4 @@ We appreciate your help in maintaining the security of our project. If you disco
 
 We kindly request that you refrain from publicly disclosing the vulnerability until we have had sufficient time to investigate and address it.
 
-## Bug Bounty Program
-
-To encourage and reward the responsible disclosure of security vulnerabilities, we operate a bug bounty program. If you discover a qualifying vulnerability and abide by our responsible disclosure policy, you may be eligible for a monetary reward. Please visit our bug bounty program page at [example.com/bug-bounty](https://example.com/bug-bounty) for more information on eligibility, scope, and reward guidelines.
-
-## Scope
-
-Our security policy applies to the core functionality of our project, including the official releases and distributions. It does not cover vulnerabilities arising from custom modifications, unauthorized integrations, or third-party plugins.
-
-## Responsible Disclosure
-
-We believe that responsible disclosure of vulnerabilities is essential to ensure the security and privacy of our users. We request that you:
-
-- Make every effort to avoid impacting the privacy and availability of our users' data during your research.
-- Refrain from accessing, modifying, or deleting data from our systems. If you encounter any sensitive information, please immediately halt your activities and notify us.
-- Abide by all applicable laws and regulations throughout your security research.
-
-We are committed to acknowledging and addressing vulnerabilities promptly and keeping you informed throughout
-
- the process. We appreciate your collaboration in helping us maintain a secure project.
-
 Thank you for your contributions to our project's security.
